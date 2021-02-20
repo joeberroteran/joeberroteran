@@ -1,13 +1,127 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-:root{
-    --dark-blue: #1D3557;
-    --light-blue: #457B9D;
-    --lighter-blue: #A8DADC;
-    --text-color: #F1FAEE;
-    --detail-color: #E63946;
+*{
+    padding: 0;
+    margin: 0;
 }
 
 body{
-    font-family: 'Nunito', sans-serif;
+    width: 10vw;
+    height: auto;
+}
+
+.header{
+    width: 100vw;
+    height: 60px;
+    margin: 0% auto;
+    background: #000;
+    color: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.lefthdr{
+    display: flex;
+    margin-left: 1%;
+}
+
+.search{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.sections{
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.btn{
+    padding: 9px 16px;
+    background-color: #2a2a2a;
+    border: 1px solid #666;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 15px;
+    height: 36px;
+    font-weight: 550;
+    min-width: 36px;
+    color: #fafafa;
+}
+
+.bar{
+    margin-left: 5px;
+}
+
+.btn:hover{
+    border: 1px solid white;
+}
+
+.centerhdr{
+    margin-right: auto;
+    padding-left: 20px;
+}
+
+.centerhdr a{
+    padding: 12px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #EAF2EF;
+    font-weight: 600;
+}
+
+.nlinks{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nlinks:hover{
+    color: white;
+}
+
+.righthdr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1%;
+}
+
+.log-in a{
+    padding: 12px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #e6c533;
+    font-weight: 600;
+}
+
+.donations{
+    margin-left: 8px;
+}
+
+.resume{
+    margin-left: 8px;
+}
+
+.user{
+    margin-left: 5px;
+}
+
+.btn-donate{
+    padding: 9px 16px;
+    background-color: #1955a5;
+    border: 1px solid #3d73d5;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 15px;
+    height: 36px;
+    font-weight: 550;
+    min-width: 36px;
+    color: #fafafa;
+}
+
+.btn-donate:hover{
+    background-color: #3d73d5;
 }
