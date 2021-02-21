@@ -6,70 +6,46 @@
 }
 
 body{
-    width: 10vw;
+    width: 100vw;
     height: auto;
 }
 
 .header{
-    width: 100vw;
-    height: 60px;
+    width: 90vw;
+    height: 70px;
     margin: 0% auto;
-    background: #000;
     color: #fafafa;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: 'Roboto', sans-serif;
+    border-bottom: 1px solid #000;
 }
 
 .lefthdr{
     display: flex;
-    margin-left: 1%;
 }
 
-.search{
-    display: flex;
-    position: relative;
-    align-items: center;
-}
-
-.sections{
+.logo{
     display: flex;
     align-items: center;
-    margin-left: 8px;
 }
 
-.btn{
-    padding: 9px 16px;
-    background-color: #2a2a2a;
-    border: 1px solid #666;
-    border-radius: 2px;
-    cursor: pointer;
-    font-size: 15px;
-    height: 36px;
-    font-weight: 550;
-    min-width: 36px;
-    color: #fafafa;
-}
-
-.bar{
-    margin-left: 5px;
-}
-
-.btn:hover{
-    border: 1px solid white;
+.logo-blog{
+    max-width: 350px;
+    height: auto;
 }
 
 .centerhdr{
-    margin-right: auto;
-    padding-left: 20px;
+    margin-left: auto;
+    padding-right: 10px;
 }
 
 .centerhdr a{
-    padding: 12px;
+    padding: 8px;
     text-transform: uppercase;
     font-size: 13px;
-    color: #EAF2EF;
+    color: #000;
     font-weight: 600;
 }
 
@@ -79,63 +55,98 @@ body{
 }
 
 .nlinks:hover{
-    color: white;
+    color: rgb(109, 109, 109);
 }
 
 .righthdr{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 1%;
+}
+
+.righthdr button{
+    text-transform: uppercase;
+    font-size: 13px;
 }
 
 .log-in a{
     padding: 12px;
     text-transform: uppercase;
     font-size: 13px;
-    color: #e6c533;
+    color: #1955a5;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
-.donations{
-    margin-left: 8px;
+.btn-sign-up{
+    padding: 3px 8px;
+    cursor: pointer;
+    font-size: 13px;
+    height: 28px;
+    font-weight: 600;
+    min-width: 30px;
+    background-color: white;
+    color: #1955a5;
+    border: 1px solid #1955a5;
 }
 
-.resume{
-    margin-left: 8px;
+.btn-resume{
+    padding: 3px 8px;
+    cursor: pointer;
+    font-size: 13px;
+    height: 28px;
+    font-weight: 600;
+    min-width: 30px;
+    background-color: white;
+    color: #1955a5;
+    border: 1px solid #1955a5;
+    margin-left: 10px;
 }
 
-.user{
-    margin-left: 5px;
+.btn-search{
+    cursor: pointer;
+    height: 36px;
+    min-width: 36px;
+    color: #000;
+    background-color: white;
+    border: none;
+    margin-left: 10px;
+}
+
+.btn-search:hover{
+    color: rgb(109, 109, 109);
+}
+
+.btn-sections{
+    cursor: pointer;
+    height: 36px;
+    min-width: 36px;
+    color: #000;
+    background-color: white;
+    border: none;
+}
+
+.btn-sections:hover{
+    color: rgb(109, 109, 109);
+}
+
+.btn:hover{
+    border: 1px solid white;
 }
 
 .btn-donate{
-    padding: 9px 16px;
+    padding: 3px 8px;
     background-color: #1955a5;
     border: 1px solid #3d73d5;
-    border-radius: 2px;
     cursor: pointer;
-    font-size: 15px;
-    height: 36px;
+    font-size: 13px;
+    height: 28px;
     font-weight: 550;
-    min-width: 36px;
+    min-width: 30px;
     color: #fafafa;
+    margin-left: 10px;
 }
 
 .btn-donate:hover{
     background-color: #3d73d5;
-}
-
-.main{
-    width: 100vw;
-    height: auto;
-    margin: 2% auto;
-    border-bottom: 1px solid rgb(219, 219, 219);
-}
-
-.toparea{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
 }
