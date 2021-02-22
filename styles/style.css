@@ -90,6 +90,12 @@ body{
     border: 1px solid #1955a5;
 }
 
+.btn-sign-up:hover{
+    border: 1px solid #3d73d5;
+    background-color: #3d73d5;
+    color: white;
+}
+
 .btn-resume{
     padding: 3px 8px;
     cursor: pointer;
@@ -101,6 +107,12 @@ body{
     color: #1955a5;
     border: 1px solid #1955a5;
     margin-left: 10px;
+}
+
+.btn-resume:hover{
+    border: 1px solid #3d73d5;
+    background-color: #3d73d5;
+    color: white;
 }
 
 .btn-search{
